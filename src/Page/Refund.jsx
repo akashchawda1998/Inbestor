@@ -2,7 +2,7 @@ import React from "react";
 
 const RefundPolicy = () => {
   return (
-    <section className="px-4 py-8 max-w-5xl mx-auto text-gray-800 leading-relaxed text-sm sm:text-base">
+    <section className=" extrapage px-4 py-8 max-w-5xl mx-auto text-gray-800 leading-relaxed text-sm sm:text-base">
       <h1 className="text-2xl sm:text-3xl font-bold text-center text-blue-700 mb-8">
         Refund Policy
       </h1>

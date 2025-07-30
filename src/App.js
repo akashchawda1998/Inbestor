@@ -17,10 +17,12 @@ import RefundPolicy from './Page/Refund';
 import DosAndDonts from './Page/Do';
 import PrivacyPolicy from './Page/Privacy';
 import Comingsoon from './Comingsoon';
+import GlobalClickScrollTop from './GlobalClickScrollTop';
 
 function App() {
   return (
     <Router>
+      <GlobalClickScrollTop/>
       <Header/>
         <Routes>
           <Route path="/" element={<Main />} />

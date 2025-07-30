@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import logo from './finallogo.png'
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -43,7 +43,7 @@ const Footer = () => {
  <div style={{ display: 'flex', gap:"20px" }}>
    <div style={{ flex: '1 1 ', minWidth: '' }}>
     <h5 style={{ borderBottom: '1px solid #fff', paddingBottom: '5px', marginBottom: '10px' }}>
-      Important Links
+      Important as
     </h5>
     <ul style={{ listStyle: 'none', paddingLeft: 0, lineHeight: '2' }}>
       <li>Investor Charter in Respect of RAs</li>
@@ -63,14 +63,14 @@ const Footer = () => {
     </h5>
     <ul style={{ listStyle: 'none', paddingLeft: 0, lineHeight: '2' }}>
        <li>
-    <Link to="/disclaimer" className="hover:underline">
+    <a href="/disclaimer" className="hover:underline">
       Disclaimer
-    </Link>
+    </a>
   </li>
   <li>
-    <Link to="/disclosure" className="hover:underline">
+    <a href="/disclosure" className="hover:underline">
       Disclosure
-    </Link>
+    </a>
   </li>
   <li>
     <a
@@ -93,19 +93,19 @@ const Footer = () => {
     </a>
   </li>
   <li>
-    <Link to="/refund-policy" className="hover:underline">
+    <a href="/refund-policy" className="hover:underline">
       Refund Policy
-    </Link>
+    </a>
   </li>
   <li>
-    <Link to="/privacy-policy" className="hover:underline">
+    <a href="/privacy-policy" className="hover:underline">
       Privacy Policy
-    </Link>
+    </a>
   </li>
   <li>
-    <Link to="/terms-conditions" className="hover:underline">
+    <a href="/terms-conditions" className="hover:underline">
       Terms and Conditions & MITC
-    </Link>
+    </a>
   </li>
     </ul>
   </div>
