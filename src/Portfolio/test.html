@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<script>
+var response; 
+
+const dtaa = async () => {
+  try {
+    const dataaaa = await fetch('https://jsonplaceholder.typicode.com/posts');
+    const jsonData = await dataaaa.json(); 
+    console.log("sdafd", jsonData);
+  } catch (error) {
+    console.error(error);
+  }
+};
+</script>
+<body>
+
+//
+https://jsonplaceholder.typicode.com/posts
+
+<h1>
+
+<h1 style="background-color: red;">Hello World!</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
