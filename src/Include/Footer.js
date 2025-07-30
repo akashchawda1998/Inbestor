@@ -126,16 +126,17 @@ const Footer = () => {
         Standard Warning: <span>Investments in the securities market are subject to market risks. Please read all related documents carefully before investing.</span>
       </div>
       <hr className="disclaimer-divider" />
-      <div className="disclaimer-address-wrapper">
-        <div className="disclaimer-address">
-          <span className="disclaimer-bold">Our Registered Office address:</span>
-          Plot no. 126/127, Scheme no. 113, Vijay Nagar, Indore, Madhya Pradesh (452010)
-        </div>
-        <div className="disclaimer-address">
-          <span className="disclaimer-bold">SEBI office address:</span>
-          SEBI Bhavan BKC, Plot No. C4 - A, 'G' Block Bandra - Kurla Complex, Bandra (East), Mumbai - 400051, Maharashtra 
-        </div>
-      </div>
+    <div className="disclaimer-address-wrapper">
+  <div className="disclaimer-address">
+    <span className="disclaimer-bold">Our Registered Office address:</span>
+    Plot no. 126/127, Scheme no. 113, Vijay Nagar, Indore, Madhya Pradesh (452010)
+  </div>
+  <div className="disclaimer-address">
+    <span className="disclaimer-bold">SEBI office address:</span>
+    SEBI Bhavan BKC, Plot No. C4 - A, 'G' Block Bandra - Kurla Complex, Bandra (East), Mumbai - 400051, Maharashtra 
+  </div>
+</div>
+
     </div>
     </>
   );
