@@ -22,10 +22,10 @@ export default function Header() {
         <div className="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" href="/portfolio">Portfolio</a>
+              <a className="nav-link" href="/portfolio">Portfolio</a>
             </li>
             <li className="nav-item">
-              <arrow className="nav-link" href="/coming-soon">Research</a>
+              <a className="nav-link" href="/coming-soon">Research</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/coming-soon">Learnings</a>
