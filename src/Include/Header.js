@@ -31,7 +31,7 @@ export default function Header() {
               <a className="nav-link" href="/coming-soon">Learnings</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" to="/community">Community</a>
+              <a className="nav-link" href="/community">Community</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/coming-soon">Insights</a>
